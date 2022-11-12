@@ -3,3 +3,14 @@ def solution(num_list):
     for i in range(len(num_list)-1,-1,-1):
         answer.append(num_list[i])
     return answer
+
+def solution(num_list):
+    return num_list[::-1]
+
+def solution(num_list):
+    num_list.reverse()
+    return num_list
+
+def solution(num_list):
+    answer = list(reversed(num_list))
+    return answer
