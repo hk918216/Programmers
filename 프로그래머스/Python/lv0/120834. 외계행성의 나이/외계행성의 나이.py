@@ -5,3 +5,8 @@ def solution(age):
         answer += list[int(i)]
     return answer
 
+def solution(age):
+    answer = ''
+    for i in str(age):
+        answer += chr(int(i)+97)
+    return answer
