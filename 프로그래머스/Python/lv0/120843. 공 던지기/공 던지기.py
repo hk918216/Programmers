@@ -4,3 +4,7 @@ def solution(numbers, k):
         numbers.append(numbers.pop(0))
         numbers.append(numbers.pop(0))
     return numbers[0]
+
+def solution(numbers, k):
+    answer = 2 * (k - 1) % numbers[-1] + 1
+    return answer
