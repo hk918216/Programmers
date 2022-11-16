@@ -1,0 +1,15 @@
+#1
+def solution(sides):
+    sides.sort(reverse=True)
+    if sides[0] < sides[1]+sides[2]:
+        return 1
+    else:
+        return 2
+
+#2
+def solution(sides):
+    sides = sorted(sides)
+    if sides[2] < sides[1]+sides[0]:
+        return 1
+    else:
+        return 2
