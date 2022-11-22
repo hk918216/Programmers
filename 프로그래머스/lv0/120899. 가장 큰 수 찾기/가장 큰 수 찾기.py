@@ -3,3 +3,6 @@ def solution(array):
     answer.append(max(array))
     answer.append(array.index(max(array)))
     return answer
+
+def solution(array):
+    return[max(array), array.index(max(array))]
