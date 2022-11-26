@@ -5,3 +5,6 @@ def solution(sides):
         if (a+b+i) > 2*max(a,b,i):
             answer += 1
     return answer
+
+def solution(sides):
+    return sum(sides) - max(sides) + min(sides) -1
