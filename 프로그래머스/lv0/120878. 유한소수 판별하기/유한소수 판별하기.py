@@ -10,3 +10,6 @@ def solution(a, b):
         else:
             return 2
     return 1
+
+# def solution(a,b):
+#     return 1 if a/b * 1000 % 1 == 0 else 2
