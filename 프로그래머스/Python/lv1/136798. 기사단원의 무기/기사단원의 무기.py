@@ -12,6 +12,6 @@ def solution(number, limit, power):
     for i in range(1,number+1):
         if divisor(i) > limit:
             answer += power
-        else:
+        else: 
             answer += divisor(i)
     return answer
